@@ -90,7 +90,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xqr-j0-4QY">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0oY-aC-cxD">
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0oY-aC-cxD">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cancel" translatesAutoresizingMaskIntoConstraints="NO" id="3eg-gl-vYw">
@@ -104,12 +104,12 @@
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="0oY-aC-cxD" secondAttribute="trailing" id="DG9-Mg-Tx9"/>
-                                            <constraint firstItem="0oY-aC-cxD" firstAttribute="leading" secondItem="Xqr-j0-4QY" secondAttribute="leading" id="O4o-gU-Ozw"/>
+                                            <constraint firstAttribute="trailing" secondItem="0oY-aC-cxD" secondAttribute="trailing" id="CHG-kA-pFC"/>
+                                            <constraint firstItem="0oY-aC-cxD" firstAttribute="top" secondItem="Xqr-j0-4QY" secondAttribute="top" id="FhG-GC-spn"/>
                                             <constraint firstItem="3eg-gl-vYw" firstAttribute="top" secondItem="Xqr-j0-4QY" secondAttribute="top" constant="16" id="bQz-Gr-BcX"/>
-                                            <constraint firstAttribute="bottom" secondItem="0oY-aC-cxD" secondAttribute="bottom" id="e9e-zf-eGI"/>
                                             <constraint firstAttribute="trailing" secondItem="3eg-gl-vYw" secondAttribute="trailing" constant="16" id="eEU-PA-Ezl"/>
-                                            <constraint firstItem="0oY-aC-cxD" firstAttribute="top" secondItem="Xqr-j0-4QY" secondAttribute="top" id="mdF-fM-Vo7"/>
+                                            <constraint firstAttribute="bottom" secondItem="0oY-aC-cxD" secondAttribute="bottom" id="noW-5t-w9l"/>
+                                            <constraint firstItem="0oY-aC-cxD" firstAttribute="leading" secondItem="Xqr-j0-4QY" secondAttribute="leading" id="qUG-hn-qls"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -119,7 +119,7 @@
                                     <constraint firstItem="Xqr-j0-4QY" firstAttribute="top" secondItem="VpH-eY-esB" secondAttribute="top" id="TBi-oi-WAh"/>
                                     <constraint firstItem="Xqr-j0-4QY" firstAttribute="centerX" secondItem="VpH-eY-esB" secondAttribute="centerX" id="X89-Mk-Ngg"/>
                                     <constraint firstItem="Xqr-j0-4QY" firstAttribute="leading" secondItem="VpH-eY-esB" secondAttribute="leading" id="aQa-pc-GPb"/>
-                                    <constraint firstAttribute="bottom" secondItem="Xqr-j0-4QY" secondAttribute="bottom" id="my1-a2-Hfy"/>
+                                    <constraint firstAttribute="bottom" secondItem="Xqr-j0-4QY" secondAttribute="bottom" constant="50" id="my1-a2-Hfy"/>
                                 </constraints>
                             </scrollView>
                         </subviews>

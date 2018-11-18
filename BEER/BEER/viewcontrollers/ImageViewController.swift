@@ -20,8 +20,10 @@ class ImageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scrollView.maximumZoomScale = 10
-        scrollView.minimumZoomScale = 1
+        self.scrollView.delegate = self
+        
+        scrollView.maximumZoomScale = 6.0
+        scrollView.minimumZoomScale = 1.0
 
         sVImage.sd_setImage(with: URL(string: image!), completed: nil)
         
